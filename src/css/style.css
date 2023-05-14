@@ -105,27 +105,27 @@ main .cartao-pokemon .tipo {
     border-radius: 10px;
 }
 
-.grama {
+.grass {
     background-color: #7ac74c;
 }
 
-.veneno {
+.poison {
     background-color: #df67ddfb;
 }
 
-.fogo {
+.fire {
     background-color: #ee8130;
 }
 
-.voador{
+.flying{
     background-color:#bdb9b8 ;
     
 }
-.agua {
+.water {
     background-color: #6390f0;
 }
 
-.inseto {
+.bug {
     background-color: #a6b91a;
 }
 
