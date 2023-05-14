@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
     background-image: url("../imgs/pokemon-bg1.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     color: #333;
 }
 
@@ -50,7 +51,7 @@ main .listagem-pokemon {
 }
 
 main .cartao-pokemon {
-    background-color: #d8e3ec;
+    background-color: #d8e3ecc4;
     width: 200px;
     padding: 15px;
     display: flex;
@@ -59,24 +60,22 @@ main .cartao-pokemon {
     gap: 15px;
     border-radius: 15px;
     transition: 0.2s ease-in-out;
-
 }
 
 main .cartao-pokemon:hover {
-    background-color: #86b6b4;
+    background-color: #86b6b4b4;
 }
 
 .modo-escuro .cartao-pokemon {
-    background-color: #a8a8a8;
+    background-color: #a8a8a8d3;
     
 }
-/* teste */
+
 main .cartao-pokemon .info {
     display: flex;    
     justify-content: space-between;
     border: 1px solid #333;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
 
 main .cartao-pokemon .info span {
@@ -135,6 +134,28 @@ main .cartao-pokemon .tipo {
 main .descricao {
     height: 100px;
     overflow-y: scroll;
-    font-size: 14px;
+    font-size: 16px;
     padding-right: 10px;
+}
+
+
+/* media query */
+@media screen and (max-width:600px) {
+    header{     
+        position: fixed;   
+        width: 100%;
+        top: 0px;
+       
+    }
+    body {
+        background-image: url("../imgs/bgm.jpg");
+        background-size: center;    
+
+        background-attachment: fixed;
+    }
+    body.modo-escuro {
+        background-image: url("../imgs/bg-blastoise.jpg");
+        background-position: 0;
+        
+    }
 }
