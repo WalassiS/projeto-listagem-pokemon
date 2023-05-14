@@ -5,7 +5,7 @@ const iconeTrocaTema = document.querySelector(".imagem-botao");
 
 iconeTrocaTema.addEventListener("click", () => {
 
-    body.classList.toggle("modo-escuro");
+    body.classList.toggle("modo-escuro");// alternar modo claro/escuro
 
     if(body.classList.contains("modo-escuro")){
         iconeTrocaTema.setAttribute("src", "./src/imgs/sun.png");
