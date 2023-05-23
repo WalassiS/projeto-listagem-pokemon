@@ -21,7 +21,11 @@ main {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 25px;    
+    padding: 5px 10px;
+    left: 0; 
+    top: 0px;   
+    position: fixed;
+    width: 100%;
 }
 
 header .logo,
@@ -91,10 +95,6 @@ main .cartao-pokemon .card-box{
     width: 90px;
     height: 90px;
 }
-/*
-main .cartao-pokemon .gif {
-    
-}*/
 
 main .cartao-pokemon .tipos {
 
